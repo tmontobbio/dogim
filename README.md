@@ -1,24 +1,44 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was built on:
 
-Things you may want to cover:
+- Ruby 3.1.2
+- React 18.2.0
+- React-router-dom 6.4.2
+- Node 16.17.1
 
-* Ruby version
+## Running Locally:
 
-* System dependencies
+Install dependencies
 
-* Configuration
+```
+bundle i
+```
 
-* Database creation
+Start the SQL server
 
-* Database initialization
+```
+// linux
+sudo service postgresql start
 
-* How to run the test suite
+// mac
+brew services start postgresql
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Create your database
 
-* Deployment instructions
+```
+rails db:create
+```
 
-* ...
+Rails development server
+
+```
+rails s
+```
+
+React development server
+
+```
+npm start server --prefix client
+```

@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: dogim_production
-  username: dogim
-  password: <%= ENV["DOGIM_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
