@@ -1,7 +1,6 @@
 require_relative "boot"
 
 require "rails/all"
-require "sprockets/railtie"
 # require "rails"
 # require "active_model/railtie"
 # require "active_job/railtie"
