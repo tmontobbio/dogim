@@ -1,5 +1,11 @@
 # README
 
+# Dog IM
+
+Dog IM is a fun, dog themed chat room app. Users can create an account with encrypted credentials, create and join chat rooms, read and write messages from other users. I wrote this app to display my knowledge of rails, forms, relational tables, and React.js. I plan on adding additional features in the near future such as: Viewing other user's profiles via a user list on the home page, and revamping the UI design and CSS.
+
+---
+
 This project was built on:
 
 - Ruby 3.1.2
